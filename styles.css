@@ -1112,6 +1112,22 @@ a {
     margin-bottom: 16px;
     color: #ffffff;
 }
+    .graphic-hero1 {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    height: 30vh;
+    background: url(asw.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
 }
 
 .logoheight {
