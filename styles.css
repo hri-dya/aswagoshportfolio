@@ -1090,3 +1090,18 @@ a {
     justify-content: center;
     overflow: hidden;
 }
+
+
+@media (max-width: 768px) {
+    .graphic-hero {
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        height: 70vh; /* reduce height for mobile */
+        background-size: cover;
+        background-position: center;
+    }
+}
+
