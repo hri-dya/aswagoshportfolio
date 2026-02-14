@@ -1128,6 +1128,8 @@ a {
     justify-content: center;
     overflow: hidden;
 }
+    .paddingphone {
+        padding:30px;
 }
 
 .logoheight {
