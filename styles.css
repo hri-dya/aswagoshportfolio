@@ -543,7 +543,7 @@ html, body {
     height: 100vh;
 
     background:
-        url("assets/asw.jpg");
+        url("asw.jpg");
 
     background-size: cover;
     background-position: center;
@@ -563,7 +563,7 @@ html, body {
     /* background: rgba(0, 0, 0, 0.5); black shade */
     /* ✅ BACKGROUND IMAGE */
     background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url("assets/aswdown.jpg") no-repeat center center;
+        url("aswdown.jpg") no-repeat center center;
 
     background-size: cover;
     background-attachment: fixed;  /* ✅ Parallax Effect */
@@ -766,7 +766,7 @@ html, body {
     padding: 40px 41px;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-        url("assets/asw.jpg");
+        url("asw.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -866,7 +866,7 @@ body {
 .custom-dashboard-gallery {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-        url("assets/aswsmall.jpg");
+        url("aswsmall.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1020,7 +1020,7 @@ a {
     padding: 80px 20px;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-        url("assets/asw.jpg");
+        url("asw.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1082,7 +1082,7 @@ a {
     margin-left: -50vw;
     margin-right: -50vw;
     height: 50vh;
-    background: url(assets/asw.jpg);
+    background: url(asw.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
