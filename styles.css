@@ -1104,7 +1104,13 @@ a {
         background-position: center;
     }
     .logoheight {
-    height :60px !important;
+    height: 60px !important;
+}
+    .section-title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    color: #ffffff;
 }
 }
 
