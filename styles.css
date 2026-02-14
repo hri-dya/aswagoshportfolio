@@ -1103,6 +1103,9 @@ a {
         background-size: cover;
         background-position: center;
     }
+    .logoheight {
+    height :60px;
+}
 }
 
 .logoheight {
