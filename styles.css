@@ -783,7 +783,7 @@ body {
         rgba(0,0,0,0.8),
         rgba(0,0,0,0.8)
     ),
-    url("assets/img/bg/gallery-bg.jpg") center/cover no-repeat;
+    url("gallery-bg.jpg") center/cover no-repeat;
     color: #ffffff;
 }
 
