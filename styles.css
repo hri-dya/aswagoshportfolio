@@ -1099,7 +1099,7 @@ a {
         right: 0;
         margin-left: 0;
         margin-right: 0;
-        height: 30vh; /* reduce height for mobile */
+        height: 30vh !important; /* reduce height for mobile */
         background-size: cover;
         background-position: center;
     }
