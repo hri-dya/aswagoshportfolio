@@ -1141,3 +1141,32 @@ a {
 .logoheight {
     height :150px;
 }
+
+/* Gallery Grid */
+.gallery1-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 22px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.gallery1-item {
+    overflow: hidden;
+    border-radius: 14px;
+    background: #000;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+}
+
+.gallery1-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.gallery1-item:hover img {
+    transform: scale(1.1);
+}
+
+
