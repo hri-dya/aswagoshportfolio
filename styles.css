@@ -1142,31 +1142,55 @@ a {
     height :150px;
 }
 
-/* Gallery Grid */
+
+
+
+/* =============================
+   CUSTOM 3 COLUMN GALLERY
+=============================*/
+
+.custom-dashboard-gallery1 {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url("aswsmall.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .gallery1-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 22px;
-    max-width: 1200px;
-    margin: auto;
+    grid-template-columns: repeat(4, 1fr); /* ALWAYS 3 per row */
+    gap: 20px;
 }
 
 .gallery1-item {
     overflow: hidden;
-    border-radius: 14px;
-    background: #000;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+    border-radius: 10px;
 }
 
 .gallery1-item img {
     width: 100%;
-    height: 100%;
+    height: 275px;
     object-fit: cover;
-    transition: transform 0.5s ease;
+    display: block;
+    transition: 0.4s ease;
 }
 
 .gallery1-item:hover img {
-    transform: scale(1.1);
+    transform: scale(1.08);
 }
 
+/* Tablet → 2 per row */
+@media (max-width: 991px) {
+    .gallery1-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
+/* Mobile → 1 per row */
+@media (max-width: 576px) {
+    .gallery1-grid {
+        grid-template-columns: 1fr;
+    }
+}
